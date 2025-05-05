@@ -9,7 +9,7 @@ const projects = [
     description: "This project, made in 7 days, is helpful for the organizers to gather the details of participants during the event.",
     technologies: ["Java", "PostgreSQL", "JavaFX"],
     link: "https://github.com/DineshDavuluri",
-    image: "public/Pics/StudentDataEntry.jpeg"
+    image: "Pics/StudentDataEntry.jpeg"
   },
   {
     title: "Smart Attendance System",
@@ -17,7 +17,7 @@ const projects = [
     description: "This project, made in 9 months, automates the process of tracking attendance, reducing manual errors and saving time. It enhances accuracy by preventing the duplicate or proxy attendance.",
     technologies: ["Java", "OpenCV", "TensorFlow", "PostgreSQL"],
     link: "https://github.com/DineshDavuluri",
-    image: "public/Pics/FaceAttendance.jpeg"
+    image: "Pics/FaceAttendance.jpeg"
   },
   {
     title: "Health Monitoring System",
@@ -25,7 +25,7 @@ const projects = [
     description: "Developed a Health Monitoring System with team members that won 1st prize in a hackathon.",
     technologies: ["IoT", "Python", "MongoDB", "React"],
     link: "https://github.com/DineshDavuluri",
-    image: "public/Pics/IOTHealthMonitor.jpeg"
+    image: "Pics/IOTHealthMonitor.jpeg"
   },
   {
     title: "Personal Blog Website",
@@ -33,7 +33,7 @@ const projects = [
     description: "Developed a responsive blog website with content management features.",
     technologies: ["HTML", "CSS", "JavaScript", "Node.js"],
     link: "https://github.com/DineshDavuluri",
-    image: "public/Pics/MyBlog.jpeg"
+    image: "Pics/MyBlog.jpeg"
   }
 ];
 
