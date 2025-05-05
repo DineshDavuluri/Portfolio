@@ -148,62 +148,6 @@ const Contact = () => {
                 </div>
               </div>
             </div>
-            
-            <div>
-              <form onSubmit={handleSubmit} className="bg-card border border-border p-6 rounded-lg">
-                <h3 className="text-xl font-medium mb-4">Send Me a Message</h3>
-                
-                <div className="mb-4">
-                  <label htmlFor="name" className="block mb-2 text-sm">Your Name</label>
-                  <input
-                    type="text"
-                    id="name"
-                    value={name}
-                    onChange={(e) => setName(e.target.value)}
-                    className="contact-input"
-                    placeholder="John Doe"
-                    required
-                  />
-                </div>
-                
-                <div className="mb-4">
-                  <label htmlFor="email" className="block mb-2 text-sm">Your Email</label>
-                  <input
-                    type="email"
-                    id="email"
-                    value={email}
-                    onChange={(e) => setEmail(e.target.value)}
-                    className="contact-input"
-                    placeholder="john@example.com"
-                    required
-                  />
-                </div>
-                
-                <div className="mb-6">
-                  <label htmlFor="message" className="block mb-2 text-sm">Your Message</label>
-                  <textarea
-                    id="message"
-                    value={message}
-                    onChange={(e) => setMessage(e.target.value)}
-                    className="contact-input min-h-[120px]"
-                    placeholder="Hello, I'd like to talk about..."
-                    required
-                  ></textarea>
-                </div>
-                
-                <button
-                  type="submit"
-                  className="bg-primary hover:bg-primary/90 text-white py-3 px-6 rounded-lg transition-all w-full flex items-center justify-center"
-                  disabled={isSubmitting}
-                >
-                  {isSubmitting ? (
-                    <span className="animate-pulse">Sending...</span>
-                  ) : (
-                    <span>Send Message</span>
-                  )}
-                </button>
-              </form>
-            </div>
           </div>
         </div>
       </div>
