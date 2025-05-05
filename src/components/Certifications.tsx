@@ -5,17 +5,20 @@ const certifications = [
   {
     title: "HackerRank role test in 7 weeks",
     description: "Passed the HackerRank role certification test as Software Engineer Intern.",
-    icon: "certificate"
+    icon: "certificate",
+    image: "/lovable-uploads/hackerrank-cert.jpg"
   },
   {
     title: "NPTEL Online Certification",
     description: "Successfully Completed the 12 weeks course on Java Programming.",
-    icon: "award"
+    icon: "award",
+    image: "/lovable-uploads/nptel-cert.jpg"
   },
   {
     title: "HackerRank Skill Certification Test",
     description: "Received on JavaScript - Intermediate.",
-    icon: "star"
+    icon: "star",
+    image: "/lovable-uploads/hackerrank-js-cert.jpg"
   }
 ];
 
@@ -80,25 +83,37 @@ const Certifications = () => {
   };
 
   return (
-    <section id="certifications" className="py-16 bg-secondary/30">
+    <section id="certifications" className="py-16 bg-gradient-to-r from-blue-50/30 to-indigo-50/30 dark:from-blue-950/20 dark:to-indigo-950/20">
       <div className="container mx-auto px-4">
         <div ref={sectionRef} className="section-transition">
           <h2 className="section-heading">Certifications</h2>
           
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {certifications.map((cert, index) => (
               <div
                 key={index}
                 ref={(el) => (itemRefs.current[index] = el)}
-                className="bg-card border border-border p-6 rounded-lg hover:shadow-md hover:border-primary/50 transition-all section-transition"
+                className="bg-card border border-border rounded-xl overflow-hidden hover:shadow-lg hover:border-primary/50 transition-all duration-500 section-transition group"
                 style={{ transitionDelay: `${index * 150}ms` }}
               >
-                <div className="flex flex-col items-center text-center">
-                  <div className="bg-primary/10 p-3 rounded-full text-primary mb-4">
-                    {renderIcon(cert.icon)}
+                <div className="relative h-44 overflow-hidden">
+                  <img 
+                    src={cert.image} 
+                    alt={cert.title} 
+                    className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
+                    onError={(e) => {
+                      (e.target as HTMLImageElement).src = "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?auto=format&fit=crop&q=80&w=500";
+                    }}
+                  />
+                </div>
+                <div className="p-6">
+                  <div className="flex items-center justify-center mb-4">
+                    <div className="bg-primary/10 p-3 rounded-full text-primary">
+                      {renderIcon(cert.icon)}
+                    </div>
                   </div>
-                  <h3 className="text-lg font-medium mb-2">{cert.title}</h3>
-                  <p className="text-muted-foreground">{cert.description}</p>
+                  <h3 className="text-lg font-medium mb-2 text-center">{cert.title}</h3>
+                  <p className="text-muted-foreground text-center">{cert.description}</p>
                 </div>
               </div>
             ))}

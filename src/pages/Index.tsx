@@ -12,7 +12,7 @@ import Footer from '../components/Footer';
 
 const Index = () => {
   useEffect(() => {
-    // Intersection Observer for section animations
+    // Intersection Observer for section animations with better threshold and options
     const observer = new IntersectionObserver(
       (entries) => {
         entries.forEach((entry) => {
@@ -21,7 +21,10 @@ const Index = () => {
           }
         });
       },
-      { threshold: 0.2 }
+      { 
+        threshold: 0.1,
+        rootMargin: "0px 0px -100px 0px"  // Trigger animation a bit earlier
+      }
     );
 
     // Apply to all section-transition elements
