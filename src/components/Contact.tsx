@@ -103,7 +103,7 @@ const Contact = () => {
                 <h3 className="font-medium mb-4">Connect With Me</h3>
                 <div className="flex items-center gap-4">
                   <a 
-                    href="https://linkedin.com/in/dinesh-davuluri-189x45268" 
+                    href="https://www.linkedin.com/in/dinesh-davuluri-189a45268/" 
                     target="_blank" 
                     rel="noopener noreferrer"
                     className="bg-primary/10 p-2 rounded-full text-primary hover:bg-primary/20 transition-colors"
@@ -125,7 +125,7 @@ const Contact = () => {
                   </a>
                   
                   <a 
-                    href="https://leetcode.com/u/ddinesh100" 
+                    href="https://leetcode.com/u/dinesh100" 
                     target="_blank" 
                     rel="noopener noreferrer"
                     className="bg-primary/10 p-2 rounded-full text-primary hover:bg-primary/20 transition-colors"
