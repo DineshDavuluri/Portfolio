@@ -8,12 +8,9 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Index from "./pages/Index";
 import NotFound from "./pages/NotFound";
 import ScrollToTop from "./utils/ScrollToTop";
-
 const queryClient = new QueryClient();
-
 const App = () => {
   useEffect(() => {
-    // Check user preference or system preference for theme
     if (localStorage.theme === 'dark' || 
         (!('theme' in localStorage) && 
          window.matchMedia('(prefers-color-scheme: dark)').matches)) {
@@ -22,7 +19,6 @@ const App = () => {
       document.documentElement.classList.remove('dark');
     }
   }, []);
-
   return (
     <QueryClientProvider client={queryClient}>
       <TooltipProvider>
@@ -39,5 +35,4 @@ const App = () => {
     </QueryClientProvider>
   );
 };
-
 export default App;
