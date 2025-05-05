@@ -111,7 +111,6 @@ const Projects = () => {
                       </span>
                     ))}
                   </div>
-                  
                   <a 
                     href={project.link}
                     className="text-primary hover:underline inline-flex items-center gap-1 text-sm font-medium transition-transform hover:translate-x-1"
