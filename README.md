@@ -1,73 +1,36 @@
-# Welcome to your Lovable project
+# 💼 Dinesh Davuluri - Developer Portfolio
 
-## Project info
+A stunning and professional portfolio website for Dinesh Davuluri to showcase his skills, certifications, and projects with smooth transitions, vibrant color themes, and responsive design. Built to impress interviewers and clients.
 
-**URL**: https://lovable.dev/projects/6873e84a-28fc-4c30-bdb7-1e926aaa65e6
+## ✨ Features
 
-## How can I edit this code?
+- 🔄 Smooth animations & transitions across all sections
+- 🎨 Beautiful gradient color schemes with dark/light mode toggle
+- 💡 Interactive sections: About, Skills, Projects, Certifications, Contact
+- 📸 Project & certification images integrated into a responsive grid layout
+- 📱 Fully responsive design for desktop, tablet, and mobile
+- 🌐 Deployed with modern frontend stack (Next.js / React / Tailwind CSS)
 
-There are several ways of editing your application.
+## 🖥️ Demo
 
-**Use Lovable**
+Live Website: [https://your-portfolio-link.vercel.app](https://your-portfolio-link.vercel.app)
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/6873e84a-28fc-4c30-bdb7-1e926aaa65e6) and start prompting.
+## 📷 Screenshots
 
-Changes made via Lovable will be committed automatically to this repo.
+### Home Page
+![Home](public/)
 
-**Use your preferred IDE**
+### Projects Section
+![Projects](public/)
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+### Certifications Section
+![Certifications](public/)
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+## 🛠️ Tech Stack
 
-Follow these steps:
-
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
-
-**Edit a file directly in GitHub**
-
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
-
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/6873e84a-28fc-4c30-bdb7-1e926aaa65e6) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+- **Frontend:** React / Next.js 14
+- **Styling:** Tailwind CSS, CSS Modules
+- **Animations:** Framer Motion
+- **Image Optimization:** Next.js Image component
+- **Deployment:** Vercel
+- **Optional Backend (coming soon):** Supabase for user accounts & data
