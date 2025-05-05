@@ -1,0 +1,109 @@
+
+import { useEffect, useState } from 'react';
+
+const Hero = () => {
+  const [isVisible, setIsVisible] = useState(false);
+  
+  useEffect(() => {
+    setIsVisible(true);
+  }, []);
+
+  const downloadResume = () => {
+    // In a real implementation, this would download a PDF resume
+    alert("Resume download functionality would be implemented here.");
+  };
+  
+  return (
+    <section id="home" className="min-h-screen flex items-center pt-16 pb-12">
+      <div className="container mx-auto px-4">
+        <div className="flex flex-col md:flex-row items-center justify-between gap-12">
+          <div className={`md:w-1/2 transition-all duration-700 delay-100 ${isVisible ? 'opacity-100' : 'opacity-0 translate-y-8'}`}>
+            <div className="relative inline-block mb-8">
+              <img 
+                src="/lovable-uploads/af310edf-1f12-48e7-b962-cc6e7645b2a1.png" 
+                alt="Dinesh Davuluri" 
+                className="w-48 h-48 rounded-full object-cover border-4 border-white shadow-lg"
+              />
+              <div className="absolute -bottom-3 -right-3 bg-primary text-white rounded-full p-2">
+                <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
+                </svg>
+              </div>
+            </div>
+            
+            <h1 className="text-4xl md:text-5xl font-bold mb-4">
+              Hi, I'm <span className="text-primary">Dinesh Davuluri</span>
+            </h1>
+            
+            <p className="text-lg text-muted-foreground mb-6">
+              Motivated recent graduate with strong communication skills seeking entry-level role
+            </p>
+            
+            <div className="flex flex-col sm:flex-row gap-4 mb-8">
+              <button 
+                onClick={downloadResume}
+                className="btn bg-primary hover:bg-primary/90 text-white py-3 px-6 rounded-lg transition-all">
+                Download Resume
+              </button>
+              
+              <a 
+                href="#contact" 
+                className="btn bg-transparent border border-primary text-primary hover:bg-primary/5 py-3 px-6 rounded-lg transition-all text-center">
+                Contact Me
+              </a>
+            </div>
+            
+            <div className="flex items-center gap-4">
+              <a href="mailto:dineshdavuluri1@gmail.com" className="text-gray-600 hover:text-primary transition-colors">
+                <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+                </svg>
+              </a>
+              <a href="tel:7032032570" className="text-gray-600 hover:text-primary transition-colors">
+                <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
+                </svg>
+              </a>
+              <a href="https://linkedin.com/in/dinesh-davuluri-189x45268" target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:text-primary transition-colors">
+                <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="currentColor" viewBox="0 0 24 24">
+                  <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/>
+                </svg>
+              </a>
+              <a href="https://github.com/DineshDavuluri" target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:text-primary transition-colors">
+                <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="currentColor" viewBox="0 0 24 24">
+                  <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
+                </svg>
+              </a>
+            </div>
+          </div>
+          
+          <div className={`md:w-1/2 transition-all duration-700 delay-300 ${isVisible ? 'opacity-100' : 'opacity-0 translate-y-8'}`}>
+            <div className="grid grid-cols-2 gap-4">
+              <div className="bg-card border border-border rounded-lg p-6 hover:border-primary/50 transition-all hover:shadow-sm">
+                <div className="text-primary text-2xl font-bold mb-2">2+</div>
+                <div className="text-sm text-muted-foreground">Years of Learning</div>
+              </div>
+              
+              <div className="bg-card border border-border rounded-lg p-6 hover:border-primary/50 transition-all hover:shadow-sm">
+                <div className="text-primary text-2xl font-bold mb-2">5+</div>
+                <div className="text-sm text-muted-foreground">Completed Projects</div>
+              </div>
+              
+              <div className="bg-card border border-border rounded-lg p-6 hover:border-primary/50 transition-all hover:shadow-sm">
+                <div className="text-primary text-2xl font-bold mb-2">6+</div>
+                <div className="text-sm text-muted-foreground">Tech Skills</div>
+              </div>
+              
+              <div className="bg-card border border-border rounded-lg p-6 hover:border-primary/50 transition-all hover:shadow-sm">
+                <div className="text-primary text-2xl font-bold mb-2">3+</div>
+                <div className="text-sm text-muted-foreground">Certifications</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+};
+
+export default Hero;
