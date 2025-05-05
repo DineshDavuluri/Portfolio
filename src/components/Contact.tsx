@@ -135,7 +135,7 @@ const Contact = () => {
                   </a>
                   
                   <a 
-                    href="https://codechef.com/users/dinesh49" 
+                    href="https://codechef.com/users/ddinesh49" 
                     target="_blank" 
                     rel="noopener noreferrer"
                     className="bg-primary/10 p-2 rounded-full text-primary hover:bg-primary/20 transition-colors"

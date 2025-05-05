@@ -6,17 +6,17 @@ const projects = [
     title: "Student Data Entry System",
     organization: "Vignan's Lara Institute of Technology & Science",
     description: "This project, made in 7 days, is helpful for the organizers to gather the details of participants during the event.",
-    technologies: ["Java", "MySQL", "JavaFX"],
+    technologies: ["Java", "PostgreSQL", "JavaFX"],
     link: "https://github.com/DineshDavuluri",
-    image: "/lovable-uploads/student-data-system.jpg"
+    image: "public/Pics/StudentDataEntry.jpeg"
   },
   {
     title: "Smart Attendance System",
     organization: "Vignan's Lara Institute of Technology & Science",
     description: "This project, made in 9 months, automates the process of tracking attendance, reducing manual errors and saving time. It enhances accuracy by preventing the duplicate or proxy attendance.",
-    technologies: ["Python", "OpenCV", "TensorFlow", "PostgreSQL"],
+    technologies: ["Java", "OpenCV", "TensorFlow", "PostgreSQL"],
     link: "https://github.com/DineshDavuluri",
-    image: "/lovable-uploads/attendance-system.jpg"
+    image: "public/Pics/FaceAttendance.jpeg"
   },
   {
     title: "Health Monitoring System",
@@ -24,7 +24,7 @@ const projects = [
     description: "Developed a Health Monitoring System with team members that won 1st prize in a hackathon.",
     technologies: ["IoT", "Python", "MongoDB", "React"],
     link: "https://github.com/DineshDavuluri",
-    image: "/lovable-uploads/health-monitor.jpg"
+    image: "public/Pics/IOTHealthMonitor.jpeg"
   },
   {
     title: "Personal Blog Website",
@@ -32,7 +32,7 @@ const projects = [
     description: "Developed a responsive blog website with content management features.",
     technologies: ["HTML", "CSS", "JavaScript", "Node.js"],
     link: "https://github.com/DineshDavuluri",
-    image: "/lovable-uploads/blog-website.jpg"
+    image: "public/Pics/MyBlog.jpeg"
   }
 ];
 

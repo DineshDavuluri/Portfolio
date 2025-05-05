@@ -20,7 +20,7 @@ const Hero = () => {
           <div className={`md:w-1/2 transition-all duration-700 delay-100 ${isVisible ? 'opacity-100' : 'opacity-0 translate-y-8'}`}>
             <div className="relative inline-block mb-8">
               <img 
-                src="/lovable-uploads/af310edf-1f12-48e7-b962-cc6e7645b2a1.png" 
+                src="public\favicon.ico" 
                 alt="Dinesh Davuluri" 
                 className="w-48 h-48 rounded-full object-cover border-4 border-white shadow-lg"
               />

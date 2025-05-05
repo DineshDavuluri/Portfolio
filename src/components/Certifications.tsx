@@ -6,19 +6,19 @@ const certifications = [
     title: "HackerRank role test in 7 weeks",
     description: "Passed the HackerRank role certification test as Software Engineer Intern.",
     icon: "certificate",
-    image: "/lovable-uploads/hackerrank-cert.jpg"
+    image: "public/Pics/SoftwareEngIntern.png"
   },
   {
     title: "NPTEL Online Certification",
     description: "Successfully Completed the 12 weeks course on Java Programming.",
     icon: "award",
-    image: "/lovable-uploads/nptel-cert.jpg"
+    image: "public/Pics/JavaNptel.png"
   },
   {
     title: "HackerRank Skill Certification Test",
     description: "Received on JavaScript - Intermediate.",
     icon: "star",
-    image: "/lovable-uploads/hackerrank-js-cert.jpg"
+    image: "public/Pics/JSIntermediate.png"
   }
 ];
 
