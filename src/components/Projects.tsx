@@ -7,15 +7,15 @@ const projects = [
     organization: "Vignan's Lara Institute of Technology & Science",
     description: "This project, made in 7 days, is helpful for the organizers to gather the details of participants during the event.",
     technologies: ["Java", "MySQL", "JavaFX"],
-    link: "#",
+    link: "https://github.com/DineshDavuluri",
     image: "/lovable-uploads/student-data-system.jpg"
   },
   {
     title: "Smart Attendance System",
     organization: "Vignan's Lara Institute of Technology & Science",
     description: "This project, made in 9 months, automates the process of tracking attendance, reducing manual errors and saving time. It enhances accuracy by preventing the duplicate or proxy attendance.",
-    technologies: ["Python", "OpenCV", "TensorFlow", "MySQL"],
-    link: "#",
+    technologies: ["Python", "OpenCV", "TensorFlow", "PostgreSQL"],
+    link: "https://github.com/DineshDavuluri",
     image: "/lovable-uploads/attendance-system.jpg"
   },
   {
@@ -23,7 +23,7 @@ const projects = [
     organization: "Hackathon Project",
     description: "Developed a Health Monitoring System with team members that won 1st prize in a hackathon.",
     technologies: ["IoT", "Python", "MongoDB", "React"],
-    link: "#",
+    link: "https://github.com/DineshDavuluri",
     image: "/lovable-uploads/health-monitor.jpg"
   },
   {
@@ -31,7 +31,7 @@ const projects = [
     organization: "Self Project",
     description: "Developed a responsive blog website with content management features.",
     technologies: ["HTML", "CSS", "JavaScript", "Node.js"],
-    link: "#",
+    link: "https://github.com/DineshDavuluri",
     image: "/lovable-uploads/blog-website.jpg"
   }
 ];

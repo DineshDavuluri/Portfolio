@@ -124,7 +124,7 @@ const Contact = () => {
                   </a>
                   
                   <a 
-                    href="https://leetcode.com/u/dinesh100" 
+                    href="https://leetcode.com/u/ddinesh100" 
                     target="_blank" 
                     rel="noopener noreferrer"
                     className="bg-primary/10 p-2 rounded-full text-primary hover:bg-primary/20 transition-colors"

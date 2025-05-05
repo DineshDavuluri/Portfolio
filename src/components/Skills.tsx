@@ -168,31 +168,31 @@ const Skills = () => {
                       
                       {/* Programming */}
                       <path d="M50 10 A40 40 0 0 1 90 50 L50 50 Z" fill="#93c5fd" />
-                      <text x="65" y="25" fontSize="5" fill="#1e3a8a">
+                      <text x="65" y="25" fontSize="2" fill="#1e3a8a">
                         Programming
                       </text>
                       
                       {/* Sleep */}
                       <path d="M50 50 A40 40 0 0 1 10 50 L50 50 Z" fill="#bfdbfe" />
-                      <text x="15" y="50" fontSize="5" fill="#1e3a8a">
+                      <text x="15" y="50" fontSize="2" fill="#1e3a8a">
                         Sleep
                       </text>
                       
                       {/* College */}
                       <path d="M50 50 A40 40 0 0 1 50 10 L50 50 Z" fill="#dbeafe" />
-                      <text x="50" y="25" fontSize="5" fill="#1e3a8a">
+                      <text x="50" y="25" fontSize="2" fill="#1e3a8a">
                         College
                       </text>
                       
                       {/* Family */}
                       <path d="M50 50 A40 40 0 0 1 50 90 L50 50 Z" fill="#eff6ff" />
-                      <text x="45" y="75" fontSize="5" fill="#1e3a8a">
+                      <text x="45" y="75" fontSize="2" fill="#1e3a8a">
                         Family
                       </text>
                       
                       {/* Sports */}
                       <path d="M50 50 A40 40 0 0 1 90 50 L50 50 Z" fill="#a5b4fc" />
-                      <text x="65" y="50" fontSize="5" fill="#1e3a8a">
+                      <text x="65" y="50" fontSize="2" fill="#1e3a8a">
                         Sports
                       </text>
                       
