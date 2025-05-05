@@ -10,7 +10,7 @@ const Hero = () => {
 
   const downloadResume = () => {
     const link = document.createElement('a');
-    link.href = 'public/DineshResume1.pdf';
+    link.href = 'DineshResume1.pdf';
     link.download = 'Dinesh_Davuluri_Resume.pdf';
     document.body.appendChild(link);
     link.click();
