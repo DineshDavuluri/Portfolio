@@ -16,7 +16,7 @@ const Footer = () => {
           <div className="flex flex-col items-center md:items-end">
             <div className="flex gap-4 mb-4">
               <a 
-                href="https://linkedin.com/in/dinesh-davuluri-189x45268" 
+                href="https://linkedin.com/in/dinesh-davuluri-189a45268" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="text-white/80 hover:text-white transition-colors"
@@ -38,7 +38,7 @@ const Footer = () => {
               </a>
               
               <a 
-                href="mailto:dineshdavuluri1@gmail.com" 
+                href="mailto:dineshdavuluri16@gmail.com" 
                 className="text-white/80 hover:text-white transition-colors"
               >
                 <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
