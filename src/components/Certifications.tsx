@@ -20,6 +20,11 @@ const certifications = [
     description: "Received on JavaScript - Intermediate.",
     icon: "star",
     image: "Pics/JSIntermediate.png"
+  },{
+    title: "",
+    description: "",
+    icon: "",
+    image: ""
   }
 ];
 
