@@ -21,9 +21,9 @@ const certifications = [
     icon: "star",
     image: "Pics/JSIntermediate.png"
   },{
-    title: "",
-    description: "",
-    icon: "",
+    title: "Udemy Full Stack Certificate",
+    description: "Developed 5 capstone projects aaong with a Full Stack Project(Alumni Social Media Website)",
+    icon: "badge",
     image: ""
   }
 ];
